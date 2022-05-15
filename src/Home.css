@@ -1,0 +1,331 @@
+.page {
+    scroll-behavior: smooth;
+}
+
+.hbar {
+    /* height: 200px; */
+    width: 100%;
+    font-family: 'Space Grotesk',sans-serif;
+    font-weight: 700;
+    font-size: 9em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+.connect-wallet {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: 500;
+    border: 2px solid #000000;
+    padding: 15px;
+    background-color: #A49DF8;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+.connect-wallet:hover {
+    box-shadow: none;
+}
+.navbar {
+    background-color: #fff;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    padding: 0px 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.navbar-item {
+    display: block;
+    padding: 15px 25px;
+        font-family: 'Space Grotesk',
+    sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.navbar-ite {
+    display: block;
+    padding: 15px 25px;
+        font-family: 'Space Grotesk',sans-serif;
+    color: white;
+    background-color: #000000;
+    font-weight: 500;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.navbar-item:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.section{
+    height: 100vh;
+    /* background-color: #000; */
+    display: flex;
+}
+
+.left-container {
+    flex: 1 1 0;
+    background-color: #F5724F;
+    border-right: 2px solid #000000; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+.heading-container {
+    /* align-self: center; */
+    height: fit-content;
+    margin-left: 7vw;
+    
+}
+.stroke-heading {
+    color: black;
+    -webkit-text-fill-color: transparent;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* text-align: center; */
+    -webkit-text-stroke-color: black;
+    width: fit-content;
+    margin-top: 70px;
+    line-height: 1em;
+}
+.stroke-heading-off {
+    color: black;
+    -webkit-text-fill-color: transparent;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* text-align: center; */
+    -webkit-text-stroke-color: black;
+    position: relative;
+    margin-left: 50px;
+    width: fit-content;
+    /* line-height: 1em; */
+}
+
+.sub-heading {
+    margin-left: calc(7vw + 50px);
+    font-family: 'Space Grotesk',
+    sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.input-color {
+    -webkit-appearance: none;
+    align-self: center;
+    margin-top: 5vh;
+    width: 18vh;
+    height: 18vh;
+    box-shadow: 4px 4px 0px #000000;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.input-color:hover {
+    box-shadow: none;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    outline: none;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: solid 3px #000;
+    /*change color of the swatch border here*/
+    border-radius: 5px;
+}
+
+.color-container {
+    align-self: center;
+}
+.arrow {
+    height: 20vh;
+    width: 20vh;
+    margin-right: 30px;
+}
+.arrow-r {
+    height: 20vh;
+    width: 20vh;
+    margin-left: 50px;
+}
+
+.n {
+    display: inline-block;
+    font-size: 2em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    padding: 5px 17px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 3em;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 12vh;
+}
+.n2 {
+    font-size: 2em;
+    height: 1.2em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    padding: 5px 15px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 3em;
+    position: relative;
+    top: 12vh;
+    margin-left: 20px;
+}
+.n3 {
+    font-size: 2em;
+    height: 1.2em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    padding: 5px 15px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 3em;
+    position: relative;
+    bottom: 3vh;
+    margin-left: 20px;
+}
+
+.right-container {
+    flex: 1 1 0;
+    background-color: #FEC62E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.x-container {
+    display: flex;
+    margin-top: 10vh;
+    
+}
+.grid-container {
+    
+    width: calc(9*35px);
+    height: calc(12*35px);
+    background-color: white;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.grid-container:hover {
+    box-shadow: none;
+}
+.primary-button {
+    font-size: 1.3em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    border: 2px solid #000000;
+    padding: 15px 40px;
+    background-color: white;
+    height: fit-content;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.primary-button:hover{
+    box-shadow: none;
+}
+
+.section-info {
+    height: 95vh;
+    /* background-color: #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-heading {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    width: 80%;
+    /* text-transform: uppercase; */
+    margin-top: 10vh;
+    line-height: 1.2em;
+    text-align: center;
+}
+.left-container2 {
+    flex: 1 1 0;
+    background-color: #A49DF8;
+    border-right: 2px solid #000000;
+    border-top: 2px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-container2 {
+    flex: 1 1 0;
+    background-color: #B1EBD3;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #000000;
+    align-content: center;
+}
+
+.container-heading {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-top: 10vh;
+    width: 75%;
+    margin-left: 13vh;
+}
+.container-sub-heading {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-top: 10vh;
+    width: 80%;
+    margin-left: 13vh;
+}
+.ape {
+    object-fit: cover;
+    width: calc(9*35px);
+    height: calc(12*35px);
+    border-radius: 2px;
+}
+
+.y-container {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 13vh;
+}
