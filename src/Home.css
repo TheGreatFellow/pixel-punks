@@ -24,7 +24,7 @@
     color: #000;
     border-radius: 5px;
     box-shadow: 4px 4px 0px #000000;
-    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 
 }
 .connect-wallet:hover {
@@ -69,6 +69,7 @@
     height: 100vh;
     /* background-color: #000; */
     display: flex;
+    border-bottom: 2px solid #000000;
 }
 
 .left-container {
@@ -136,7 +137,7 @@
     height: 18vh;
     box-shadow: 4px 4px 0px #000000;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .input-color:hover {
@@ -239,7 +240,7 @@ input[type="color"]::-webkit-color-swatch {
     box-shadow: 5px 5px 0px #000000;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .grid-container:hover {
@@ -251,13 +252,13 @@ input[type="color"]::-webkit-color-swatch {
     font-weight: 700;
     border: 2px solid #000000;
     padding: 15px 40px;
-    background-color: white;
+    background-color: #E239FC;
     height: fit-content;
     color: #000;
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 4px 4px 0px #000000;
-    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .primary-button:hover{
