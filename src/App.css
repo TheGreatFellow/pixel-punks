@@ -4,7 +4,10 @@
   overflow-y: scroll;
   text-align: center;
 }
-
+div {
+  margin: 0;
+  padding: 0;
+}
 .container {
   height: 100%;
   display: flex;
@@ -89,9 +92,10 @@
 
 .gif-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(30px, 30px));
-  /* grid-gap: 1.5rem; */
-  justify-items: stretch;
+  grid-template-columns: repeat(9, minmax(32px, 32px));
+  /* grid-gap: 0rem; */
+  align-content: center;
+  /* width: calc(35px*9); */
   
   justify-content: center;
   margin: 0;
