@@ -3,7 +3,7 @@ import './Home.css'
 import Arrow from './assets/arrow.svg'
 import Ape from './assets/pixel-ape.png'
 import BWApe from './assets/pixel-ape-bw.png'
-import ArrowRight from './assets/arrow-right.svg'
+
 const Home = () => {
     const [ape, setApe] = useState(BWApe)
     return (
