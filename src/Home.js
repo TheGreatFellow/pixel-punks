@@ -3,7 +3,11 @@ import './Home.css'
 import Arrow from './assets/arrow.svg'
 import Ape from './assets/pixel-ape.png'
 import BWApe from './assets/pixel-ape-bw.png'
-
+import ArrowRight from './assets/arrow-right.svg'
+import shreyas from './assets/shreyas.jpeg'
+import pareekshit from './assets/pareekshit.jpg'
+import mishra from './assets/mishra.png'
+import vasist from './assets/vasist.jpeg'
 const Home = () => {
     const [ape, setApe] = useState(BWApe)
     return (
@@ -64,6 +68,19 @@ const Home = () => {
                     Pixie-NFT and get paid for it.
                 </h1>
             </div>
+            <div class='marquee'>
+                <div class='marquee__inner' aria-hidden='true'>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                    <span>PixelPunk</span>
+                </div>
+            </div>
             <div className='section'>
                 <div className='left-container2'>
                     <div
@@ -85,6 +102,59 @@ const Home = () => {
                     <div className='y-container'>
                         <button className='primary-button'>Learn More</button>
                     </div>
+                </div>
+            </div>
+            <div className='sectio'>
+                <div className='info-heading'>Our Team</div>
+                <div className='fle'>
+                    <a href='https://twitter.com/thegreatfellow'>
+                        <div className='grid-containe'>
+                            <img src={shreyas} className='ap' alt='ape' />
+                            <a
+                                href='https://twitter.com/thegreatfellow'
+                                className='twitter'
+                            >
+                                @thegreafellow
+                            </a>
+                            <div className='name'>Front-end dev</div>
+                        </div>
+                    </a>
+                    <a href='https://twitter.com/pareekshit1620'>
+                        <div className='grid-containe'>
+                            <img src={pareekshit} className='ap' alt='ape' />
+                            <a
+                                href='https://twitter.com/pareekshit1620'
+                                className='twitter'
+                            >
+                                @pareekshit1620
+                            </a>
+                            <div className='name'>Full-stack dev</div>
+                        </div>
+                    </a>
+                    <a href='https://twitter.com/pranavgamedev'>
+                        <div className='grid-containe'>
+                            <img src={mishra} className='ap' alt='ape' />
+                            <a
+                                href='https://twitter.com/pranavgamedev'
+                                className='twitter'
+                            >
+                                @pranavgamedev
+                            </a>
+                            <div className='name'>Game dev</div>
+                        </div>
+                    </a>
+                    <a href='https://twitter.com/pranav_vasist'>
+                        <div className='grid-containe'>
+                            <img src={vasist} className='ap' alt='ape' />
+                            <a
+                                href='https://twitter.com/pranav_vasist'
+                                className='twitter'
+                            >
+                                @pranav_vasist
+                            </a>
+                            <div className='name'>Developer</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
