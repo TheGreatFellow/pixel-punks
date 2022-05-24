@@ -1,10 +1,11 @@
-# 🖌️ PixFarm
+# 🖌️ Pixel Punk
 
 BUIDL NFTs collaboratively 🚀
 
 ## ℹ️ About The Project
 
 Come as a community and start painting on an NxN grid of pixels. Create extraordinary NFTs that your community love, one pixel at a time ❤️.
+  After a specified time, the pixel art will be set out for auction. The funds gained from it will be distributed among the contributors of the art!
 
 ## Live Site
 Project Link - [https://pixelpunks.vercel.app/](https://pixelpunks.vercel.app/)
