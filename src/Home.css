@@ -396,7 +396,7 @@ input[type="color"]::-webkit-color-swatch {
     display: flex;
     flex-direction: row;
     margin: 5vh 3vh;
-    
+    justify-content: space-around;
 }
 
 .sectio {
